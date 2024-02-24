@@ -1,0 +1,42 @@
+body{
+background-color: antiquewhite;
+}
+h1{
+    text-align: center ;
+}
+header{
+    background-color: plum;
+    text-align: center;
+    padding: 17px;
+}
+#about{
+    text-wrap: wrap;
+    text-overflow: inherit;
+    background-color: blue;
+    font-size: larger;
+}
+h2{
+    text-align: center;
+    size: 18px;
+}
+h3{
+    text-align: center;
+    font-size: x-large;
+}
+h4{
+    text-align: center;
+font-size: x-large;
+}
+h5{
+    text-align: center;
+    font-size: x-large;
+}
+footer{
+    background-color: plum;
+    padding: 19px; ;
+}
+.about{
+    text-align: left;
+    image-orientation: from-image;
+    
+}
