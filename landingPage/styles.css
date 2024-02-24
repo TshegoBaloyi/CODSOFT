@@ -1,0 +1,69 @@
+body, h1, h2, h3, p, ul, li, form {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #551635;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header, nav, section, footer {
+  background-color: #f7c7e3;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #200583;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.column {
+  width: 300px;
+  text-align: center;
+  margin: 20px;
+}
+
+.column img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  color: #777;
+}

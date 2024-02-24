@@ -1,0 +1,30 @@
+.calculator {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#display {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+    text-align: right;
+    background-color: rgb(60, 60, 104);
+    color: #dfe2d9;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    color: #911010;
+    
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    color: #dfe2d9;
+    background-color: rgb(60, 60, 104);
+}
